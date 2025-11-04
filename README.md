@@ -60,7 +60,31 @@ The system is built on a powerful integration of a deep learning backend and a r
 - <b>Real-time testing on live images or test datasets.</b>
 - <b>Integrated data collection tools.</b>
 
+<h2>📊 Model Performance</h2>
 
+| Model | Task | Accuracy | Precision | Recall | F1-Score |
+|-------|------|----------|-----------|--------|-----------|
+| Model 1 | Kitchen Tap (Running/Off) | 91.67% | 91.73% | 91.66% | 91.63% |
+| Model 2 | Bedroom Drawer (Open/Closed) | 96.83% | 96.99% | 96.83% | 96.81% |
+| Model 3 | Toilet Lid (Open/Closed) | **100%** | **100%** | **100%** | **100%** |
+| Model 4 | Hallway (Occupied/Empty) | **100%** | **100%** | **100%** | **100%** |
+
+
+<h2>📈 Results & Analysis</h2>
+
+The models demonstrated exceptional performance, successfully localizing anomalies in real-time. Key insights from the analysis:  <br />
+
+- **Environmental Factors:** Model accuracy was influenced by lighting, shadows, and reflections, highlighting the challenges of real-world deployment.
+- **Overfitting:** Models 3 & 4 achieved 100% accuracy, suggesting potential overfitting. Future work would involve expanding the dataset for better generalization.
+- **Robustness:** The system proved to be a reliable proof-of-concept for automated monitoring in domestic environments.
+
+<h2>🔮 Future Work</h2>
+
+This project lays the foundation for several exciting advancements:  <br />
+
+- **Enhanced Robustness:** Improve model performance under varying lighting and weather conditions.
+- **Semi-Supervised Learning:** Reduce reliance on large, labeled datasets by exploring unsupervised techniques.
+- **Broader Applications:** Adapt the system for industrial inspection, public security, or healthcare monitoring.
 
 
 
