@@ -44,7 +44,40 @@ This project addresses both by creating an interpretable, online detection syste
 
 <h2>🛠️ How It Works (The Technical Story)</h2>
 
-The system is built on a powerful integration of a deep learning backend and a responsive frontend. <br />
+The system implements a structured pipeline for model management, featuring four specialized deep learning models trained for specific domestic anomaly detection tasks. Each model follows a standardized lifecycle from initialization to testing. The architecture eliminates manual coding requirements through an intuitive GUI  <br />
+
+
+<h2>One-Click Automated Workflow</h2>
+
+**Load Model:**
+System automatically:
+- Initializes pre-trained architecture
+- Loads optimized weights
+- Verifies model integrity
+- Updates status: "Model loaded successfully"
+
+**Train Model:**
+Automated training pipeline:
+- Data preprocessing & augmentation
+- Transfer learning fine-tuning
+- Validation metrics tracking
+- Status: "Model trained and optimized"
+
+**Save Model:**
+Model persistence:
+ - Weight serialization
+ - Architecture preservation
+ - Version management
+ - Status: "Trained model saved"
+
+**Test Model:**
+Real-time evaluation:
+- Live camera inference
+- Heatmap generation
+- Performance metrics
+- Anomaly localization
+
+
 
 <h2>🏗️ System Architecture</h2>
 
