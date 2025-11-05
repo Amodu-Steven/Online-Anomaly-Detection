@@ -56,12 +56,27 @@ System automatically:
 - Verifies model integrity
 - Updates status: "Model loaded successfully"
 
+<p align="center">
+ 
+Load Model:  <br/>
+![Load Model](Picture1.png) 
+![Load Model](Picture2.png) 
+<br />
+<br />
+
 **Train Model:**
 Automated training pipeline:
 - Data preprocessing & augmentation
 - Transfer learning fine-tuning
 - Validation metrics tracking
 - Status: "Model trained and optimized"
+  <p align="center">
+ 
+Train Model:  <br/>
+![Load Model](Picture3.png) 
+![Load Model](Picture4.png) 
+<br />
+<br />
 
 **Save Model:**
 Model persistence:
@@ -69,6 +84,12 @@ Model persistence:
  - Architecture preservation
  - Version management
  - Status: "Trained model saved"
+   <p align="center">
+ 
+Save Model:  <br/>
+![Load Model](Picture5.png) 
+<br />
+<br />
 
 **Test Model:**
 Real-time evaluation:
@@ -76,6 +97,16 @@ Real-time evaluation:
 - Heatmap generation
 - Performance metrics
 - Anomaly localization
+
+  <p align="center">
+ 
+Results:  <br/>
+![Load Model](Result1a.png) 
+![Load Model](Result3.png) 
+![Load Model](Result4.png) 
+![Load Model](Result5.png) 
+<br />
+<br />
 
 
 
